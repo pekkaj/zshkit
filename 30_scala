@@ -1,0 +1,5 @@
+SCALA_HOME="$HOME/Development/Scala"
+
+export SCALA_HOME
+
+path=($SCALA_HOME/bin $path)
