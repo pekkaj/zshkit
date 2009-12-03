@@ -1,0 +1,5 @@
+SBT_HOME="$HOME/Development/Sbt"
+
+export SBT_HOME
+
+alias sbt='java -Xmx512M -jar $SBT_HOME/sbt-launcher.jar $@'
