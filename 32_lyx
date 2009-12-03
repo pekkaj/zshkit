@@ -1,0 +1,5 @@
+LYX_HOME="/Applications/LyX.app/Contents/MacOS"
+
+export LYX_HOME
+
+path=($LYX_HOME $path)
